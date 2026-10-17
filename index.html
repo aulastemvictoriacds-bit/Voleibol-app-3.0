@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingenieros de Sistemas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>👨‍💻 Ingenieros de Sistemas</h1>
+        <p class="introduccion">Presiona un botón para ver la información 👇</p>
+
+        <div class="imagen-principal">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400" alt="Código y computadora">
+        </div>
+
+        <div class="botones">
+            <button onclick="mostrar('que')">¿Qué son?</button>
+            <button onclick="mostrar('hacen')">¿Qué hacen?</button>
+            <button onclick="mostrar('donde')">¿Dónde trabajan?</button>
+            <button onclick="mostrar('importante')">¿Por qué son importantes?</button>
+        </div>
+
+        <div id="caja-info" class="caja-informacion">
+            <p class="mensaje-inicio">Selecciona un botón arriba para ver la información aquí ✨</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

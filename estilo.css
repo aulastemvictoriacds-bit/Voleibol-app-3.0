@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    max-width: 800px;
+    width: 100%;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #004d99;
+    margin-bottom: 10px;
+}
+
+.introduccion {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.imagen-principal img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d99;
+    transform: scale(1.05);
+}
+
+button.activo {
+    background-color: #003366;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.caja-informacion {
+    background-color: #f0f7ff;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-left: 5px solid #0066cc;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja-informacion h2 {
+    color: #004d99;
+    margin-top: 0;
+}
+
+.caja-informacion img {
+    max-width: 80%;
+    border-radius: 8px;
+    margin: 10px auto 20px;
+    display: block;
+}
+
+.caja-informacion ul {
+    list-style-position: inside;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.mensaje-inicio {
+    color: #666;
+    font-style: italic;
+}
